@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.1/LumiereRenderStudio.exe",
-  "changelog": "Fix: Không còn lỗi 'Failed to load Python DLL' sau khi tự cập nhật."
+  "version": "1.1.2",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.2/LumiereRenderStudio.exe",
+  "changelog": "Fix: Lỗi TLS khi đăng nhập tài khoản user ('Could not find a suitable TLS CA certificate bundle')."
 }
