@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.0/LumiereRenderStudio.exe",
-  "changelog": "Tính năng mới: Nút thoát tài khoản trên header, giao diện đăng nhập mới thiết kế lại hoàn toàn."
+  "version": "1.1.1",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.1/LumiereRenderStudio.exe",
+  "changelog": "Fix: Không còn lỗi 'Failed to load Python DLL' sau khi tự cập nhật."
 }
