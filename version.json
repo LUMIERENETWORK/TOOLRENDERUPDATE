@@ -1,5 +1,5 @@
 {
-  "version": "1.1.2",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.2/LumiereRenderStudio.exe",
-  "changelog": "Fix: Lỗi TLS khi đăng nhập tài khoản user ('Could not find a suitable TLS CA certificate bundle')."
+  "version": "1.1.4",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.4/LumiereRenderStudio.exe",
+  "changelog": "v1.1.4 (2026-05-11)\n\n[Fix] Lỗi TLS khi đăng nhập — 'Could not find a suitable TLS CA certificate bundle' — vẫn xuất hiện trên một số máy sau v1.1.2.\n\nFix thật sự: truyền verify= trực tiếp vào requests thay vì dùng env var (env var không đủ vì requests cache cert path lúc import)."
 }
