@@ -1,5 +1,5 @@
 {
-  "version": "1.1.7",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.7/LumiereRenderStudio.exe",
-  "changelog": "v1.1.7 (2026-05-12)\n\n[Emergency] Add manual rescue updater for machines where the app exits before showing the update banner.\n[Updater] Harden in-app update: .part download, EXE size validation, PID wait, and update log.\n[Render] Include manual image mode and smoother image motion.\n[Subtitles] Include text case and soft subtitle styling controls."
+  "version": "1.1.8",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.8/LumiereRenderStudio.exe",
+  "changelog": "v1.1.8 (2026-05-12)\n\n[Subtitles] Fix font_size so large subtitle sizes apply correctly instead of being clamped on 720p videos.\n[Subtitles] Make subtitle text bold with stronger outline and soft shadow for readability.\n[Settings] Simplify subtitle settings by hiding advanced border, shadow, box, speaker-side, and margin controls.\n\nRecommended subtitle font size for 1280x720: 42-52."
 }
