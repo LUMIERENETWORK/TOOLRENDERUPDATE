@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.5/LumiereRenderStudio.exe",
-  "changelog": "v1.1.5 (2026-05-11)\n\n[Stability] Add render telemetry to Supabase for stage timing and per-scene render timing.\n[Stability] Add NVENC preflight and whole-job fallback to libx264 when NVENC fails.\n[Smoothness] Run FFmpeg/ffprobe at below-normal Windows priority so employee machines stay more responsive.\n[Render] Fix FFmpeg filter-thread option placement and log filter thread count."
+  "version": "1.1.7",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.7/LumiereRenderStudio.exe",
+  "changelog": "v1.1.7 (2026-05-12)\n\n[Emergency] Add manual rescue updater for machines where the app exits before showing the update banner.\n[Updater] Harden in-app update: .part download, EXE size validation, PID wait, and update log.\n[Render] Include manual image mode and smoother image motion.\n[Subtitles] Include text case and soft subtitle styling controls."
 }
