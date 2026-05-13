@@ -1,5 +1,5 @@
 {
-  "version": "1.1.8",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.8/LumiereRenderStudio.exe",
-  "changelog": "v1.1.8 (2026-05-12)\n\n[Subtitles] Fix font_size so large subtitle sizes apply correctly instead of being clamped on 720p videos.\n[Subtitles] Make subtitle text bold with stronger outline and soft shadow for readability.\n[Settings] Simplify subtitle settings by hiding advanced border, shadow, box, speaker-side, and margin controls.\n\nRecommended subtitle font size for 1280x720: 42-52."
+  "version": "1.1.9",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.9/LumiereRenderStudio.exe",
+  "changelog": "v1.1.9 (2026-05-13)\n\n[Render] Fix manual-image long videos rendering as one huge scene. Manual images now render in ~60s scene chunks for better stability and speed.\n[Render] Prevent WinError 206 path-too-long failures by shortening new and queued output paths automatically.\n[Render] Use normal FFmpeg process priority by default so renders no longer run below normal priority.\n[STT] Use short temp filenames for long audio processing to avoid Windows path length failures.\n[Settings] Restore subtitle left/right layout control and hide advanced margin fields from the UI.\n[Updater] Harden auto-update validation and logging so failed downloads or bad update URLs do not silently close the app."
 }
