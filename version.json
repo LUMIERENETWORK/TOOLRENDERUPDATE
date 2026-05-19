@@ -1,5 +1,5 @@
 {
-  "version": "1.1.9",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.1.9/LumiereRenderStudio.exe",
-  "changelog": "v1.1.9 (2026-05-13)\n\n[Render] Fix manual-image long videos rendering as one huge scene. Manual images now render in ~60s scene chunks for better stability and speed.\n[Render] Prevent WinError 206 path-too-long failures by shortening new and queued output paths automatically.\n[Render] Use normal FFmpeg process priority by default so renders no longer run below normal priority.\n[STT] Use short temp filenames for long audio processing to avoid Windows path length failures.\n[Settings] Restore subtitle left/right layout control and hide advanced margin fields from the UI.\n[Updater] Harden auto-update validation and logging so failed downloads or bad update URLs do not silently close the app."
+  "version": "1.2.0",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.2.0/LumiereRenderStudio.exe",
+  "changelog": "v1.2.0 (2026-05-19)\n\n[Render] Add external footage source mode for one-off source videos outside the footage library.\n[Render] Tune external source compositing: clearer source video, lower blur, 0.58 image opacity cap.\n[Render] Improve manual image mode: auto-detect A_tach.png next to A.png and overlay the cutout character clearly above the softened original image.\n[Render] Add random stock-footage speed per job, default 0.6-0.9, while keeping long renders chunked for stability.\n[Metadata] Store foreground image paths and selected footage speed for debugging."
 }
