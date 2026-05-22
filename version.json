@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.2.0/LumiereRenderStudio.exe",
-  "changelog": "v1.2.0 (2026-05-19)\n\n[Render] Add external footage source mode for one-off source videos outside the footage library.\n[Render] Tune external source compositing: clearer source video, lower blur, 0.58 image opacity cap.\n[Render] Improve manual image mode: auto-detect A_tach.png next to A.png and overlay the cutout character clearly above the softened original image.\n[Render] Add random stock-footage speed per job, default 0.6-0.9, while keeping long renders chunked for stability.\n[Metadata] Store foreground image paths and selected footage speed for debugging."
+  "version": "1.2.1",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.2.1/LumiereRenderStudio.exe",
+  "changelog": "v1.2.1 (2026-05-22)\n\n[Update] Rebuild Lumiere Render Studio with the latest local fixes.\n[Update] Publish as a new version so installed v1.2.0 clients can receive the automatic update banner.\n[Render] Keep the v1.2 render source workflow: external footage mode, manual image cutout overlay, random stock-footage speed, and long render chunking."
 }
