@@ -1,5 +1,5 @@
 {
-  "version": "1.2.1",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.2.1/LumiereRenderStudio.exe",
-  "changelog": "v1.2.1 (2026-05-22)\n\n[Update] Rebuild Lumiere Render Studio with the latest local fixes.\n[Update] Publish as a new version so installed v1.2.0 clients can receive the automatic update banner.\n[Render] Keep the v1.2 render source workflow: external footage mode, manual image cutout overlay, random stock-footage speed, and long render chunking."
+  "version": "1.2.2",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.2.2/LumiereRenderStudio.exe",
+  "changelog": "v1.2.2 (2026-05-27)\n\n[Intro] Tích hợp tính năng chọn Video Intro (.mp4) cực nhanh không re-encode ở đầu video thành phẩm.\n[Subtitle] Sửa lỗi giao diện cấu hình phụ đề nâng cao tiếng Việt (margin_near, margin_far, alignment, margin_v).\n[Anti-Fingerprint] Bổ sung cơ chế tự động phóng to ngẫu nhiên (zoom ngẫu nhiên 1.1x - 1.2x) tăng tối đa tính độc bản cho từng video.\n[Crash Fix] Khắc phục triệt để lỗi xung đột luồng chạy ngầm gây crash tự tắt tool khi thao tác đăng nhập hoặc đóng app nhanh."
 }
