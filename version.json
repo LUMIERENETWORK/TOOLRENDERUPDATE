@@ -1,5 +1,5 @@
 {
-  "version": "1.2.2",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.2.2/LumiereRenderStudio.exe",
-  "changelog": "v1.2.2 (2026-05-27)\n\n[Intro] Tích hợp tính năng chọn Video Intro (.mp4) cực nhanh không re-encode ở đầu video thành phẩm.\n[Subtitle] Sửa lỗi giao diện cấu hình phụ đề nâng cao tiếng Việt (margin_near, margin_far, alignment, margin_v).\n[Anti-Fingerprint] Bổ sung cơ chế tự động phóng to ngẫu nhiên (zoom ngẫu nhiên 1.1x - 1.2x) tăng tối đa tính độc bản cho từng video.\n[Crash Fix] Khắc phục triệt để lỗi xung đột luồng chạy ngầm gây crash tự tắt tool khi thao tác đăng nhập hoặc đóng app nhanh."
+  "version": "1.2.3",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.2.3/LumiereRenderStudio.exe",
+  "changelog": "v1.2.3 (2026-05-28)\n\n[Sửa lỗi Render] Khắc phục triệt để lỗi crash hoặc đứng hình (rc=3199971767) khi render video dài trên 1 tiếng ở các máy cấu hình thấp.\n[Tối ưu hóa BGM] Cải tiến thuật toán lặp BGM và thay thế cờ -shortest bằng -t nhằm giảm tải tối đa bộ đệm và mức tiêu thụ RAM khi xuất video thành phẩm."
 }
