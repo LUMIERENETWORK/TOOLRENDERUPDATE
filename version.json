@@ -1,5 +1,5 @@
 {
-  "version": "1.2.4",
-  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.2.4/LumiereRenderStudio.exe",
-  "changelog": "v1.2.4 (2026-06-03)\n\n[Sửa lỗi Core] Khôi phục đầy đủ mã nguồn các file cốt lõi (bgm_picker, cid_music, pipeline, main) tránh bị mất dòng cuối do lỗi lưu trữ.\n[Nhạc nền BGM] Tích hợp chuẩn hóa âm lượng loudnorm cho nhạc nền BGM để tự động cân bằng âm lượng thông minh.\n[Giao diện UI] Hiển thị tên người dùng đăng nhập và nhãn phân quyền (ADMIN/USER) trực quan dưới thanh status bar."
+  "version": "1.2.5",
+  "download_url": "https://github.com/LUMIERENETWORK/TOOLRENDERUPDATE/releases/download/v1.2.5/LumiereRenderStudio.exe",
+  "changelog": "v1.2.5 (2026-06-04)\n\n[Sửa lỗi nhạc nền quá to] Ô Volume nhạc nền giờ là mức GIẢM tương đối (số dB nhỏ hơn giọng đọc), chỉnh là nghe ra ngay. Mỗi bài được neo về cùng mức rồi hạ theo cài đặt, nên nhạc nền luôn nằm dưới giọng — tôn giọng đọc. Mặc định mới: bài giảng/cầu nguyện = -22 dB, cầu nguyện đêm = -24 dB.\n[Sửa nhạc CID] Cùng cơ chế tương đối; giữ đủ to để Content ID claim nhưng không chói (mặc định -15 dB dưới giọng).\n[Sửa hỏng cấu hình] Khắc phục lỗi config.json bị hỏng làm mất cài đặt; lưu cài đặt an toàn (atomic) và tự phục hồi khi file lỗi."
 }
